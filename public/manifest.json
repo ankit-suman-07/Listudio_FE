@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Listudio",
+  "name": "An app to manage your list",
   "icons": [
     {
       "src": "favicon.ico",
