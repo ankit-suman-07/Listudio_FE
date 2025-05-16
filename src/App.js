@@ -1,12 +1,17 @@
 import './App.css';
 
+import MainPage from './pages/main-page/main-page';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import { useEffect } from 'react';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          Create App for List
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/main" element={<MainPage />} />
+      </Routes>
+    </Router>
   );
 }
 
